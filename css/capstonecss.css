@@ -1,0 +1,10 @@
+.jumbotron {
+  background-image: url("../img/code2.jpg");
+  height: 70vh;
+  background-size: cover;
+  background-position: center;
+}
+.card {
+  max-width: 95%;
+  max-height: ;
+}
