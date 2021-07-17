@@ -6,7 +6,7 @@
 }
 
 @media screen and (min-width: 320px) {
-  .row {
-    margin-top: 200px;
+  .jumbotron {
+    margin-bottom: 200px;
   }
 }
