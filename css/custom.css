@@ -7,7 +7,7 @@
 
 @media (min-width: 320px) {
   .jumbotron {
-    background-image: url(../img/code2.jpg);
+    background-image: url(../img/code.jpg);
     height: 100vh;
   }
 }
