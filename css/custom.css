@@ -5,9 +5,25 @@
   color: rgb(187, 44, 44);
 }
 
+.graphic {
+  margin: 1em auto;
+  width: 15%;
+  display: inline-block;
+}
+
+.social {
+  margin: 15px;
+}
+
 @media (min-width: 320px) {
   .jumbotron {
-    background-image: url(../img/code.jpg);
-    height: 100vh;
+    background-image: url(../img/code2.jpg);
+    height: 70vh;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .display-2 {
+    font-size: 0.5rem;
   }
 }
