@@ -19,9 +19,8 @@
   .jumbotron {
     background-image: url(../img/code2.jpg);
     height: 70vh;
-    background-size: cover;
-    background-position: center;
-  }
+    
+    
 
   .display-2 {
     font-size: 0.5rem;

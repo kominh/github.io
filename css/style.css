@@ -1,0 +1,21 @@
+.jumbotron {
+  background-image: url("../img/code2.jpg");
+  height: 70vh;
+  background-size: cover;
+  background-position: center;
+}
+
+.graphic {
+  margin: 1em auto;
+  width: 15%;
+  display: inline-block;
+}
+
+.social {
+  margin: 20px;
+}
+
+.contactme {
+  width: 75%;
+  margin: 0 auto;
+}

@@ -1,52 +1,83 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+  <meta name="generator" content="Hugo 0.83.1">
+  <title>Album example · Bootstrap v5.0</title>
 
-    <title>kominh</title>
-    <link rel="stylesheet" href="css/capstonecss.css">
-    <link rel="stylesheet" href="css/custom.css">
-    
-  </head>
-  <body class="bg-dark">
+  <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/album/">
+  <link rel="stylesheet" href="css/style.css">
     
 
-    <header>
-      
-        <!-- navbar -->
-    
-        <nav class="navbar navbar-expand-lg bg-dark navbar-dark fixed-top">
-          <div class="container container-fluid">
-            <a class="navbar-brand" href="#"><img src="img/code-bracket.png" alt=""><strong class="ms-2"></strong>Kominh Chanthakoummane</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
-              <div class="navbar-nav">
-                <a class="nav-link" aria-current="page" href="#">Home</a>
-                <a class="nav-link" href="#about">About</a>
-                <a class="nav-link" href="#projects">Projects</a>
-                <a class="nav-link" href="#contact" tabindex="-1">Contacts</a>
-              </div>
-            </div>
+  <!-- Bootstrap CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+    crossorigin="anonymous" />
+
+  <!-- Bootstrap core CSS -->
+  <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/custom.css" rel="stylesheet">
+  <style>
+    .bd-placeholder-img {
+      font-size: 1.125rem;
+      text-anchor: middle;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      user-select: none;
+    }
+
+    @media (min-width: 768px) {
+      .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+      }
+    }
+  </style>
+
+
+</head>
+
+<body class="bg-dark">
+
+  <header>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+
+      <div class="container container-fluid">
+
+        
+        <a class="navbar-brand" href="#"><img src="img/code-bracket.png" alt=""><strong class="ms-2"></strong>Kominh</a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+            <a class="nav-link" href="#about">About</a>
+            <a class="nav-link" href="#projects">Projects</a>
+            <a class="nav-link" href="#contact" tabindex="-1">Contact</a>
           </div>
-        </nav>
-      
-      <!-- /navbar -->
-
-    </header>
-
-
-    <main>
-
-      <!-- Jumbotron -->
+        </div>
+      </div>
+    </nav>
     
-    <div class="jumbotron jumbotron-fluid bg-info text-white">
+  </header>
+
+  <main>
+
+    
+
+
+<!-- Jumbotron -->
+    
+<div class="jumbotron jumbotron-fluid bg-info text-white">
   <div class="container text-sm-center pt-5">
     <h1 class="mt-5">Kominh Chanthakoummane (kc)</h1>
     <p class="lead mt-5 fs-3">Web Developer</p>
@@ -66,11 +97,11 @@
     <!-- /jumbotron -->
 
 
-    <!-- about section -->
+     <!-- about section -->
     
-<div class="container-fluid bg-info text-white bg-dark" id="about">
+<div class="container-fluid bg-info text-white bg-dark mb-5" id="about">
   <div class="container text-sm-center pt-5">
-    <h1 class="mt-5">About Me</h1>
+    <h1 class="mt-5 text-center">About Me</h1>
     <p class="lead mt-5 fs-2">I am an aspiring web developer who is very fascinated about the web. Growing up in Charlotte, North Carolina, I have worked in lots of different jobs. I’m excited to bring my creativity to the process of building awesome looking websites.</p>
         
     
@@ -81,158 +112,210 @@
     <!-- /about section -->
 
 
-      
 
-<!-- projects -->
 
-<div class="container-fluid bg-info text-white bg-dark" id="projects">
-  <div class="container text-sm-center pt-5">
-    <h1 class="mt-5">My Projects</h1>
-    
+    <div class="container-fluid bg-info text-white bg-dark" id="projects">
+      <div class="container text-sm-center pt-5">
+        <h1 class="mt-5 mb-5 text-center">My Projects</h1>
         
-    
-  </div>
-</div>
-
-             
-      
-
-      <div class="row row-cols-1 row-cols-md-3 g-4 me-2 ms-2 mt-5 mb-5">
-        <div class="col-lg-4 col-md-6">
-          <div class="card h-100">
-            <img src="img/project1.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Profile Page</h5>
-              <p class="card-text">Using my web design skills to create a personal profile web page. This project also allowed me to utilized my HTML & CSS skills.</p>
-              
-            </div>
-            <div class="mx-auto mb-3">
-              <a href="https://github.com/kominh/techdegree-project-1" class="btn btn-primary">see code</a>
-              <a href="https://kominh.github.io/techdegree-project-1/" class="btn btn-primary">open project</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6">
-          <div class="card h-100">
-            <img src="img/project2.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Mobile-first Responsive Layout</h5>
-              <p class="card-text">Using HTML & CSS to build a responsive, mobile-first layout. This project adjust to accomodate small, medium and large screen sizes. It demonstrate my understanding of responsive design.</p>
-              
-            </div>
-            <div class="mx-auto mb-3">
-              <a href="https://github.com/kominh/techdegree-project-2" class="btn btn-primary">see code</a>
-              <a href="https://kominh.github.io/techdegree-project-2/" class="btn btn-primary">open project</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6">
-          <div class="card h-100">
-            <img src="img/project3.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">An Online Registration Form</h5>
-              <p class="card-text">Using HTML form input types and attributes to build a responsive, mobile-friendly registration form.</p>
-            </div>
-            <div class="mx-auto mb-3">
-              <a href="https://github.com/kominh/techdegree-project-3" class="btn btn-primary">see code</a>
-              <a href="https://kominh.github.io/techdegree-project-3/" class="btn btn-primary">open project</a>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-4 col-md-6">
-          <div class="card h-100">
-            <img src="img/project4.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">An Interactive Photo Gallery</h5>
-              <p class="card-text">An interactive photo gallery built using JavaScript and jQuery.</p>
-              
-            </div>
-            <div class="mx-auto mb-3">
-              <a href="https://github.com/kominh/techdegree-project-4" class="btn btn-primary">see code</a>
-              <a href="https://kominh.github.io/techdegree-project-4/" class="btn btn-primary">open project</a>
-            </div>
-          </div>
-        </div>
-
-
-        <div class="col-lg-4 col-md-6">
-          <div class="card h-100">
-            <img src="img/project5.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Web Style Guide</h5>
-              <p class="card-text">This project focused on using SASS to apply styles and classes to the webpage. A fun project!</p>
-              
-            </div>
-            <div class="mx-auto mb-3">
-              <a href="https://github.com/kominh/teechdegree-project-5" class="btn btn-primary">see code</a>
-              <a href="https://kominh.github.io/teechdegree-project-5/" class="btn btn-primary">open project</a>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-4 col-md-6">
-          <div class="card h-100">
-            <img src="img/project6.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Game Show App</h5>
-              <p class="card-text">Wheel of Success is a word guessing game. Players can click on letters from the onscreen keyboard to guess a random phrase. This was a great project using JavaScript!</p>
-              
-            </div>
-            <div class="mx-auto mb-3">
-              <a href="https://github.com/kominh/techdegree-project-6" class="btn btn-primary">see code</a>
-              <a href="https://kominh.github.io/techdegree-project-6/" class="btn btn-primary">open project</a>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-4 col-md-6">
-          <div class="card h-100">
-            <img src="img/project7.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">WebApp Dashboard</h5>
-              <p class="card-text">This project is a webapp dashboard with JavaScript-driven charts and graphs.</p>
-              
-            </div>
-            <div class="mx-auto mb-3">
-              <a href="https://github.com/kominh/project-7" class="btn btn-primary">see code</a>
-              <a href="https://kominh.github.io/project-7/" class="btn btn-primary">open project</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6">
-          <div class="card h-100">
-            <img src="img/project8.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Use an API to Create an Employee Directory</h5>
-              <p class="card-text">Using API to create a directory of employees. You can use the search bar to enter names of employees and search the directory.</p>
-              
-            </div>
-            <div class="mx-auto mb-3">
-              <a href="https://github.com/kominh/techdegree-project-8" class="btn btn-primary">see code</a>
-              <a href="https://kominh.github.io/techdegree-project-8/" class="btn btn-primary">open project</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6">
-          <div class="card h-100">
-            <img src="img/code.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">project 9</h5>
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-            </div>
-            <div class="mx-auto mb-3">
-              <a href="#" class="btn btn-primary">see code</a>
-              <a href="#" class="btn btn-primary">open project</a>
-            </div>
-          </div>
-        </div>  
+            
+        
       </div>
+    </div>
 
-      
-      
 
-</main>
+
+
+
+    <div class="album py-5 bg-dark">
+      <div class="container">
+
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+          <div class="col">
+            
+            <div class="card shadow-sm">
+              <img src="img/project1.jpg" class="card-img-top" alt="...">
+              
+              
+              <div class="card-body">
+                
+                <h5>Profile Page</h5>
+                <p class="card-text">Using my web design skills to create a personal profile web page. This project also allowed me to utilized my HTML & CSS skills.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  
+                    
+                    
+                  <div class="btn-group">
+                    
+                    <a href="https://github.com/kominh/techdegree-project-1" class="btn btn-primary">See code</a>
+                    <a href="https://kominh.github.io/techdegree-project-1/" class="btn btn-primary">Open Project</a>
+                  </div>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <img src="img/project2.jpg" class="card-img-top" alt="...">
+
+              <div class="card-body">
+
+                <h5>Mobile-first Responsive Layout</h5>
+                <p class="card-text">Using HTML & CSS to build a responsive, mobile-first layout. This project adjust to accomodate small, medium and large screen sizes. It demonstrate my understanding of responsive design</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <a href="https://github.com/kominh/techdegree-project-2" class="btn btn-primary">See code</a>
+                    <a href="https://kominh.github.io/techdegree-project-2/" class="btn btn-primary">Open Project</a>
+                  </div>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <img src="img/project3.jpg" class="card-img-top" alt="...">
+              
+
+              <div class="card-body">
+                <h5>An Online Registration Form</h5>
+                <p class="card-text">Using HTML form input types and attributes to build a responsive, mobile-friendly registration form.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <a href="https://github.com/kominh/techdegree-project-3" class="btn btn-primary">See code</a>
+                    <a href="https://kominh.github.io/techdegree-project-3/" class="btn btn-primary">Open Project</a>
+                  </div>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card shadow-sm">
+
+              <img src="img/project4.jpg" class="card-img-top" alt="...">
+              
+
+              <div class="card-body">
+
+                <h5>An Interactive Photo Gallery</h5>
+                <p class="card-text">An interactive photo gallery built using JavaScript and jQuery.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <a href="https://github.com/kominh/techdegree-project-4" class="btn btn-primary">See code</a>
+                    <a href="https://kominh.github.io/techdegree-project-4/" class="btn btn-primary">Open Project</a>
+                  </div>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+
+              <img src="img/project5.jpg" class="card-img-top" alt="...">
+              
+
+              <div class="card-body">
+
+                <h5>Web Style Guide</h5>
+                <p class="card-text">This project focused on using SASS to apply styles and classes to the webpage. A fun project!</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <a href="https://github.com/kominh/teechdegree-project-5" class="btn btn-primary">see code</a>
+              <a href="https://kominh.github.io/teechdegree-project-5/" class="btn btn-primary">open project</a>
+                  </div>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+
+              <img src="img/project6.jpg" class="card-img-top" alt="...">
+
+              
+
+              <div class="card-body">
+
+                <h5>Game Show App</h5>
+                <p class="card-text">Wheel of Success is a word guessing game. Players can click on letters from the onscreen keyboard to guess a random phrase. This was a great project using JavaScript!</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <a href="https://github.com/kominh/techdegree-project-6" class="btn btn-primary">see code</a>
+              <a href="https://kominh.github.io/techdegree-project-6/" class="btn btn-primary">open project</a>
+                  </div>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card shadow-sm">
+
+              <img src="img/project7.jpg" class="card-img-top" alt="...">
+              
+
+              <div class="card-body">
+                <h5>WebApp Dashboard</h5>
+                <p class="card-text">This project is a webapp dashboard with JavaScript-driven charts and graphs.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <a href="https://github.com/kominh/project-7" class="btn btn-primary">see code</a>
+              <a href="https://kominh.github.io/project-7/" class="btn btn-primary">open project</a>
+                  </div>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+
+              <img src="img/project8.jpg" class="card-img-top" alt="...">
+              
+
+              <div class="card-body">
+                <h5>Use an API to Create an Employee Directory</h5>
+                <p class="card-text">Using API to create a directory of employees. You can use the search bar to enter names of employees and search the directory.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <a href="https://github.com/kominh/techdegree-project-8" class="btn btn-primary">see code</a>
+              <a href="https://kominh.github.io/techdegree-project-8/" class="btn btn-primary">open project</a>
+                  </div>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+
+              <img src="img/code.jpg" class="card-img-top" alt="...">
+
+              
+
+              <div class="card-body">
+                <h5>project 9</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                  content. This content is a little bit longer.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <a href="#" class="btn btn-primary">see code</a>
+              <a href="#" class="btn btn-primary">open project</a>
+                  </div>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
 
 
@@ -241,7 +324,7 @@
     
 <div class="container-fluid bg-info text-white bg-dark" id="contact">
   <div class="container text-sm-center pt-5 wrapper">
-    <h1 class="mt-5 mb-5">Contact Me</h1>
+    <h1 class="mt-5 mb-5 text-center">Contact Me</h1>
     
      
     <a class="social" href="https://github.com/kominh">   
@@ -292,7 +375,7 @@
 </svg>
 </a>
 <a class="social" href="https://www.linkedin.com/in/kominh-chanthakoummane-00856750/">
-<svg class="graphic"  version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+<svg class="graphic"  version="1.1" id="Capa_2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 112.196 112.196" style="enable-background:new 0 0 112.196 112.196;" xml:space="preserve">
 <g>
 	<circle style="fill:#007AB9;" cx="56.098" cy="56.097" r="56.098"/>
@@ -393,28 +476,33 @@
 <!-- /contact section -->
 
 
-
-
-
-
-
-
-<footer class="footer mt-auto py-3 bg-dark">
-  <div class="container">
-    <span class="text-muted">&copy;Kominh Chanthakoummane 2021</span>
-  </div>
-</footer>
-
-
-
-! ========================================= 
     
-        FORM MODAL
+
+
+
+
+
+
+
+
+  </main>
+  <footer class="footer mt-auto py-3 bg-dark">
+    <div class="container">
+      <span class="text-muted">&copy;Kominh Chanthakoummane 2021</span>
     
-============================================= >
-    
-    
-    <!-- Modal -->
+  
+      <p class="float-end mb-1">
+        <a href="#">Back to top</a>
+      </p>
+      
+    </div>
+  </footer>
+
+
+
+
+
+<!-- Modal -->
 
 <div class="modal fade" id="resume" tabindex="-1" aria-labelledby="resume" aria-hidden="true">
   <div class="modal-dialog modal-md">
@@ -460,15 +548,18 @@
 <!--/ Modal -->
 
 
-    <!-- Optional JavaScript; choose one of the two! -->
 
-    <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
 
-    <!-- Option 2: Separate Popper and Bootstrap JS -->
-    <!--
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
-    -->
-  </body>
+
+
+
+
+
+
+
+  <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+</body>
+
 </html>
